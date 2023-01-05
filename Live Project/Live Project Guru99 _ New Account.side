@@ -1,0 +1,211 @@
+{
+  "id": "8ef82086-2ec6-4028-841e-7b8255a6fc29",
+  "version": "2.0",
+  "name": "Live Project Guru99 _ New Account",
+  "url": "https://demo.guru99.com/V1/html/addAccount.php",
+  "tests": [{
+    "id": "b63b2e13-b178-42e8-87b6-7ebc09ba844e",
+    "name": "NA1",
+    "commands": [{
+      "id": "e9a43adc-1b43-4b23-8ccc-4e65b0183556",
+      "comment": "",
+      "command": "open",
+      "target": "/V1/html/addAccount.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dc44a38-0a0f-415b-a8a4-791e38c23a03",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1201x782",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d19ead93-8612-46c5-80dc-e357d5465d96",
+      "comment": "",
+      "command": "click",
+      "target": "name=cusid",
+      "targets": [
+        ["name=cusid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='cusid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17f0e627-73e7-471d-845c-fa14e52d50ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=tbody:nth-child(2) > tr > td",
+      "targets": [
+        ["css=tbody:nth-child(2) > tr > td", "css:finder"],
+        ["xpath=//body/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c9491a3-2ebc-4728-9aff-207cf96adcb8",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message15",
+      "targets": [],
+      "value": "Customer ID is required"
+    }]
+  }, {
+    "id": "a20d0723-955d-4ffd-962e-087a242e4b0f",
+    "name": "NA2",
+    "commands": [{
+      "id": "0ddcafe9-49bb-4619-8a06-994fa5e4f210",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/addAccount.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5b934cf-b8d4-462b-ac4d-49d68585141b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1201x782",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b59b28a-5fb6-4294-8122-94727bca9b39",
+      "comment": "",
+      "command": "click",
+      "target": "name=cusid",
+      "targets": [
+        ["name=cusid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='cusid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5de35bcc-b91f-46e8-8d55-cff6f52f9cd0",
+      "comment": "",
+      "command": "type",
+      "target": "name=cusid",
+      "targets": [
+        ["name=cusid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='cusid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test123"
+    }, {
+      "id": "1c41808a-9a53-414c-84e0-63083cc171dd",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message15",
+      "targets": [],
+      "value": "Characters are not allowed"
+    }]
+  }, {
+    "id": "4610ce77-084d-48c6-af73-bf53874b9a90",
+    "name": "NA3",
+    "commands": [{
+      "id": "ea36351d-c9f7-4c16-b52a-0d7b6fd0853c",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/addAccount.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ab88ffb-63f5-47ae-b776-79968a0fdd2b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1201x782",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7b41d7c-3131-4efe-a7b8-e6f3cbcaf8fe",
+      "comment": "",
+      "command": "click",
+      "target": "name=cusid",
+      "targets": [
+        ["name=cusid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='cusid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58395a92-9762-498d-8bfc-d12e87bac77d",
+      "comment": "",
+      "command": "type",
+      "target": "name=cusid",
+      "targets": [
+        ["name=cusid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='cusid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123@"
+    }, {
+      "id": "80a67a35-eb00-4360-b5e5-bf61edf848f4",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message15",
+      "targets": [],
+      "value": "Special characters are not allowed"
+    }]
+  }, {
+    "id": "0c2017cf-5587-449f-a673-0fa21d538e56",
+    "name": "NA4",
+    "commands": [{
+      "id": "3124632a-c7ee-459e-803e-28df31e4082a",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/addAccount.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a971be64-d382-4279-9c10-67036ae32c1b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1201x782",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05b6811c-5fab-49ae-9bbc-a566fb3a02ba",
+      "comment": "",
+      "command": "click",
+      "target": "name=cusid",
+      "targets": [
+        ["name=cusid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='cusid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4b93cfa-7498-45c5-bbcd-1c0bdc0fcdf9",
+      "comment": "",
+      "command": "type",
+      "target": "name=cusid",
+      "targets": [
+        ["name=cusid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='cusid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "    123345"
+    }, {
+      "id": "60725337-fbd7-44eb-a741-97c58068e72d",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message15",
+      "targets": [],
+      "value": "First character cannot have space"
+    }]
+  }],
+  "suites": [{
+    "id": "49d2be78-0bac-4167-bb5f-07d38d39a76f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b63b2e13-b178-42e8-87b6-7ebc09ba844e"]
+  }],
+  "urls": ["https://demo.guru99.com/", "https://demo.guru99.com/V1/html/addAccount.php"],
+  "plugins": []
+}

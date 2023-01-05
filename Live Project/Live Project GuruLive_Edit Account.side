@@ -1,0 +1,180 @@
+{
+  "id": "198b7de8-a212-4f31-8abd-79003bfaa823",
+  "version": "2.0",
+  "name": "Live Project GuruLive_Edit Account",
+  "url": "https://demo.guru99.com/V1/html/editAccount.php",
+  "tests": [{
+    "id": "d3617049-4198-4afc-8c2f-416cf69180c4",
+    "name": "EA1",
+    "commands": [{
+      "id": "4f4c5615-338c-471d-a9b3-8541685f265f",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/editAccount.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d67866de-b53c-4274-92e5-ade9c7cd252a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1201x782",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45c5edee-a65b-47ce-80f7-762394371909",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c2e1c51-d169-4844-9ef7-008431d008b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=tbody:nth-child(2) > tr > td",
+      "targets": [
+        ["css=tbody:nth-child(2) > tr > td", "css:finder"],
+        ["xpath=//body/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5185ffc1-ba6e-4749-9b17-f6122cde52df",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Account Number must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Account Number must not be blank"
+    }]
+  }, {
+    "id": "4932ca64-bddd-4b05-8219-a627652a549d",
+    "name": "EA2",
+    "commands": [{
+      "id": "6bab0686-e15c-474c-ab03-fdc694a43bef",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/editAccount.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "641e7ddc-33b8-4fe0-a9a2-9bae36f1232f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1201x782",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01411323-201d-4152-ae9a-f0a9b9ed0804",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5766a268-c1e9-4cb2-a62b-fa69f5965f4e",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test123"
+    }, {
+      "id": "c2394fbc-777c-49ae-98bf-e82be49f6a3e",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Account Number must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Characters are not allowed"
+    }]
+  }, {
+    "id": "0ca80413-a50c-44c9-a498-f3a18d8d75bb",
+    "name": "EA3",
+    "commands": [{
+      "id": "61b7afc8-7b02-4228-8074-6b2a619e1a61",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/editAccount.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09ea4d00-2e83-469e-9b90-027f97fdfdae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1201x782",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb48fcf0-9e3a-46ae-bfe6-8d5b0df43b93",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f47cf0bb-5f94-44fe-a35f-46940694ece6",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "@!>"
+    }, {
+      "id": "a2c06767-9b5e-4234-b947-ceb864b6b839",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [
+        ["id=message2", "id"],
+        ["css=#message2", "css:finder"],
+        ["xpath=//label[@id='message2']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Account Number must not be blank')]", "xpath:innerText"]
+      ],
+      "value": "Special characters are not allowed"
+    }]
+  }],
+  "suites": [{
+    "id": "e84f0f34-2e9d-4958-8714-6ee5e579778e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://demo.guru99.com/V1/html/editAccount.php"],
+  "plugins": []
+}

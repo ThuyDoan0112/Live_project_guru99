@@ -1,0 +1,256 @@
+{
+  "id": "25e8d41f-1098-4700-a8a7-ef4252d09b80",
+  "version": "2.0",
+  "name": "Live Project Guruli _ Delete Customer",
+  "url": "https://demo.guru99.com/V1/html/DeleteCustomerInput.php",
+  "tests": [{
+    "id": "f0e83146-8785-4481-a000-b726745293f7",
+    "name": "DC1",
+    "commands": [{
+      "id": "056ff8e8-2085-4ee4-8925-8553ff330213",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/DeleteCustomerInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "623a4050-893e-4284-9d43-c77c063ee38c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1201x782",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "790d46f0-4e44-4368-9180-b6509129b957",
+      "comment": "",
+      "command": "click",
+      "target": "name=cusid",
+      "targets": [
+        ["name=cusid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='cusid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db2b9524-c17d-4ec4-8b05-13b68776b7b6",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=tbody:nth-child(2) > tr > td",
+      "targets": [
+        ["css=tbody:nth-child(2) > tr > td", "css:finder"],
+        ["xpath=//body/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4593e2b2-08e3-4dea-8499-28ab73b99220",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.heading3",
+      "targets": [
+        ["css=.heading3", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Delete Customer Form')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f319be51-fae0-4c9e-ab0d-08e7e7b4303e",
+      "comment": "",
+      "command": "click",
+      "target": "css=tbody:nth-child(2) > tr > td",
+      "targets": [
+        ["css=tbody:nth-child(2) > tr > td", "css:finder"],
+        ["xpath=//body/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f00e6d3-97e1-44bc-a966-da36d1205fac",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message14",
+      "targets": [
+        ["id=message14", "id"],
+        ["css=#message14", "css:finder"],
+        ["xpath=//label[@id='message14']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Customer ID is required')]", "xpath:innerText"]
+      ],
+      "value": "Customer ID is required"
+    }]
+  }, {
+    "id": "0be7ac38-341f-4a9f-ad05-5f720575511a",
+    "name": "DC2",
+    "commands": [{
+      "id": "79a95d64-4405-419b-9dcb-25c2dff8fea9",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/DeleteCustomerInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4504573-e122-4340-b320-20df3492f78b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1201x782",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9ad4253-bdc1-4b7b-9e5b-2e0e888fe144",
+      "comment": "",
+      "command": "click",
+      "target": "name=cusid",
+      "targets": [
+        ["name=cusid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='cusid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe0303d6-0884-4b16-b21a-29cc41ab3d54",
+      "comment": "",
+      "command": "type",
+      "target": "name=cusid",
+      "targets": [
+        ["name=cusid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='cusid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test123"
+    }, {
+      "id": "121c3b08-42e6-466c-9133-dcc0a06f03cb",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message14",
+      "targets": [
+        ["id=message14", "id"],
+        ["css=#message14", "css:finder"],
+        ["xpath=//label[@id='message14']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Customer ID is required')]", "xpath:innerText"]
+      ],
+      "value": "Characters are not allowed"
+    }]
+  }, {
+    "id": "f2ed8db7-6cff-42a9-bb4b-16dc19d471c7",
+    "name": "DC3",
+    "commands": [{
+      "id": "14dfe492-a706-48ca-a81e-9077a5f52344",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/DeleteCustomerInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46884c6c-3a45-4189-833b-93b36c27d8f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1201x782",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "321e702e-b6a8-4ddc-9ce2-9e7ed29a2161",
+      "comment": "",
+      "command": "click",
+      "target": "name=cusid",
+      "targets": [
+        ["name=cusid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='cusid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14fbefc3-d735-417f-bf6f-e3455b9e3ac0",
+      "comment": "",
+      "command": "type",
+      "target": "name=cusid",
+      "targets": [
+        ["name=cusid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='cusid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "C1@"
+    }, {
+      "id": "3e6526e3-2622-45e7-8c99-bfb9a28ff8b9",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message14",
+      "targets": [
+        ["id=message14", "id"],
+        ["css=#message14", "css:finder"],
+        ["xpath=//label[@id='message14']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Customer ID is required')]", "xpath:innerText"]
+      ],
+      "value": "Special characters are not allowed"
+    }]
+  }, {
+    "id": "99cf784b-cd15-4e64-ab43-9e6e0b114224",
+    "name": "DC4",
+    "commands": [{
+      "id": "09e21548-1e6c-476a-b933-eaf27e24555f",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/DeleteCustomerInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d6c99fb-6ff6-44ef-9674-3355a54df563",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1201x782",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5827ba2-052e-41d7-8f23-be34591c480b",
+      "comment": "",
+      "command": "click",
+      "target": "name=cusid",
+      "targets": [
+        ["name=cusid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='cusid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7341d632-2d89-4630-a8af-ba7cb20dabaa",
+      "comment": "",
+      "command": "type",
+      "target": "name=cusid",
+      "targets": [
+        ["name=cusid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='cusid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "    134521"
+    }, {
+      "id": "db828833-0c8c-48c8-b869-46471e2776d1",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message14",
+      "targets": [
+        ["id=message14", "id"],
+        ["css=#message14", "css:finder"],
+        ["xpath=//label[@id='message14']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Customer ID is required')]", "xpath:innerText"]
+      ],
+      "value": "First character cannot have space"
+    }]
+  }],
+  "suites": [{
+    "id": "455022d0-f286-4602-9eb1-47dc3d84a597",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f0e83146-8785-4481-a000-b726745293f7"]
+  }],
+  "urls": ["https://demo.guru99.com/V1/html/DeleteCustomerInput.php"],
+  "plugins": []
+}
